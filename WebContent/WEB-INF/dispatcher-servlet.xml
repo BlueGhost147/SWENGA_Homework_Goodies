@@ -108,8 +108,8 @@
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="host" value="smtp.mailtrap.io" />
 		<property name="port" value="2525" />
-		<property name="username" value="xxxxxxxxxxxxxx" />
-		<property name="password" value="xxxxxxxxxxxxxx" />
+		<property name="username" value="6cdc724fff3f18" />
+		<property name="password" value="71fe439d5eb1a6" />
  
 		<property name="javaMailProperties">
 			<props>
@@ -122,12 +122,12 @@
 	<bean id="customMailMessage" class="org.springframework.mail.SimpleMailMessage">
  
 		<property name="from" value="ima@fh.com" />
-		<property name="to" value="john.doe@fh.com" />
-		<property name="subject" value="Testing Subject" />
+		<property name="to" value="replaceThisEmail@beforeRunningTheApplication.at" />
+		<property name="subject" value="Music per plain-text" />
 		<property name="text">
 			<value><![CDATA[Dear %s,
 			Mail Content: %s
-			Regards Jane Doe
+			Regards SomeGuy
 		]]>
 			</value>
 		</property>
